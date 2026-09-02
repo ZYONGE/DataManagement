@@ -54,7 +54,7 @@ This repository contains practice code created while studying Data Management.
 
 The purpose of this project is to:
 
-- practice core concepts of manaagement of data
+- practice core concepts of data management
 - organize lecture exercises
 - build a structured learning record
 
@@ -62,12 +62,12 @@ The purpose of this project is to:
 ## Project Structure
 
 ```
-[PROJECT_NAME]/
-├── Chap_[01]/                #
-├── Chap_[02]/                #
-├── Chap_[03]/                # 
+DataManagement/
+├── Chap_01/      # Chapter 01 exercises
+├── Chap_02/      # Chapter 02 exercises
+├── Chap_03/      # Chapter 03 exercises
 ├── ...
-├── LICENSE     # MIT License
+├── LICENSE       # MIT License
 ├── .gitignore
 └── README.md
 ```
