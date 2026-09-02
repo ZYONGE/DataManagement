@@ -1,8 +1,8 @@
 <div align="center">
 
-# [PROJECT_NAME]
+# DataManagement
 
-Source code for the **[Course_Name]** course
+Source code for the **Data Management** course
 
 </div>
 
@@ -47,29 +47,18 @@ Source code for the **[Course_Name]** course
 
 ---
 ## Project Overview
-**Course:** [COURSE_NAME]  
+**Course:** Data Management  
 **University:** Tech University of Korea (TUK)
 
-This repository contains practice code created while studying [SUBJECT_NAME].
+This repository contains practice code created while studying Data Management.
 
 The purpose of this project is to:
 
-- practice core concepts of [TECHNOLOGY]
+- practice core concepts of manaagement of data
 - organize lecture exercises
 - build a structured learning record
 
 ---
-
-## Features
-
-This repository includes examples that demonstrate:
-
-- [FEATURE_1]
-- [FEATURE_2]
-- [FEATURE_3]
-- [FEATURE_4]
-
-
 ## Project Structure
 
 ```
