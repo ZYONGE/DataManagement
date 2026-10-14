@@ -45,7 +45,7 @@ The purpose of this project is to:
 
 - build a practice schema with DDL and load sample data with DML
 - practice core SQL querying (`SELECT`, `WHERE`, `ORDER BY`) on Oracle
-- keep a structured, dated record of lecture exercises
+- keep lecture exercises organised by statement category (DDL / DML / DQL)
 
 ---
 ## Project Structure
@@ -53,16 +53,19 @@ The purpose of this project is to:
 ```
 DataManagement/
 ├── model.sql              # Practice schema: DROP/CREATE tables + sample data INSERTs
-├── 0928/
-│   └── system.sql         # Oracle environment check (SELECT * FROM HELP)
-├── 0930/
-│   └── model_check.sql    # DESCRIBE, SELECT, alias, ORDER BY, WHERE exercises
+├── DDL.sql                # Data Definition: DESC, DROP TABLE, CREATE TABLE AS SELECT
+├── DML.sql                # Data Manipulation: INSERT, UPDATE, DELETE, COMMIT
+├── DQL.sql                # Data Query: SELECT, operators, LIKE, BETWEEN, IN, NOT
 ├── LICENSE                # MIT License
 ├── .gitignore
 └── README.md
 ```
 
-Practice folders are named by lecture date (`MMDD`).
+Files are organised by SQL statement category, not by lecture date.
+Every statement carries a comment explaining its syntax.
+
+Run order when starting from an empty schema:
+`model.sql` → `DDL.sql` → `DML.sql` → `DQL.sql`
 
 ---
 ## Practice Schema (`model.sql`)
